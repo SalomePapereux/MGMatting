@@ -8,7 +8,7 @@ trimap_channel = 3
 mask_channel = 1
 batch_size = 10
 imagenet_pretrain = true
-imagenet_pretrain_path = "pretrain/model_best_resnet34_En_nomixup.pth"
+imagenet_pretrain_path = "/content/gdrive/MyDrive/model_best_resnet34_En_nomixup.pth"
 self_refine_width1 = 30
 self_refine_width2 = 15
     [model.arch]
@@ -46,11 +46,11 @@ random_interp = true
 real_world_aug = false
 
 [log]
-tensorboard_path = "./logs/tensorboard"
+tensorboard_path = "/content/logs/tensorboard"
 tensorboard_step = 100
 tensorboard_image_step = 2000
-logging_path = "./logs/stdout"
+logging_path = "/content/logs/stdout"
 logging_step =  10
 logging_level = "INFO"
-checkpoint_path = "./checkpoints"
+checkpoint_path = "/content/checkpoints"
 checkpoint_step = 2000
