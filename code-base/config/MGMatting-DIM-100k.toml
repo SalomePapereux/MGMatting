@@ -30,12 +30,14 @@ lap_weight = 1.0
 
 
 [data]
-train_fg = "/export/ccvl12b/qihang/MGMatting/data/Combined_Dataset/Training_set/fg"
-train_alpha = "/export/ccvl12b/qihang/MGMatting/data/Combined_Dataset/Training_set/alpha"
-train_bg = "/export/ccvl12b/qihang/MGMatting/data/train2014/"
-test_merged = "/export/ccvl12b/qihang/MGMatting/data/Combined_Dataset/Test_set/merged"
-test_alpha = "/export/ccvl12b/qihang/MGMatting/data/Combined_Dataset/Test_set/alpha_copy"
-test_trimap = "/export/ccvl12b/qihang/MGMatting/data/Combined_Dataset/Test_set/trimaps"
+train_fg = "/content/train/fg"
+train_alpha = "/content/train/mask"
+train_bg = "/content/train/bg"
+train_original = "/content/train/original"
+
+test_merged = "/content/validation/original"
+test_alpha = "/content/validation/mask"
+test_trimap = "/content/validation/trimap"
 workers = 4
 crop_size = 512
 cutmask_prob = 0.25
