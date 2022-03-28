@@ -33,7 +33,6 @@ lap_weight = 1.0
 train_fg = "/content/train/fg"
 train_alpha = "/content/train/mask"
 train_bg = "/content/train/bg"
-train_original = "/content/train/original"
 
 test_merged = "/content/validation/original"
 test_alpha = "/content/validation/mask"
