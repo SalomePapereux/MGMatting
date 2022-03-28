@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--phase', type=str, default='train')
-    parser.add_argument('--config', type=str, default='config/gca-dist.toml')
+    parser.add_argument('--config', type=str, default='/config/MGMatting-DIM-100k.toml')
     parser.add_argument('--local_rank', type=int, default=0)
 
     # Parse configuration
