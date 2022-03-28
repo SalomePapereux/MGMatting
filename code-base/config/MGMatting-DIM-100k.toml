@@ -45,11 +45,11 @@ random_interp = true
 real_world_aug = false
 
 [log]
-tensorboard_path = "/content/logs/tensorboard"
+tensorboard_path = "/content/gdrive/MyDrive/logs/tensorboard"
 tensorboard_step = 100
 tensorboard_image_step = 2000
-logging_path = "/content/logs/stdout"
+logging_path = "/content/gdrive/MyDrive/logs/stdout"
 logging_step =  10
 logging_level = "INFO"
-checkpoint_path = "/content/checkpoints"
+checkpoint_path = "/content/gdrive/MyDrive/checkpoints"
 checkpoint_step = 2000
