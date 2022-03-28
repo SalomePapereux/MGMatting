@@ -50,8 +50,8 @@ class ImageFileTrain(ImageFile):
                  alpha_dir="train_alpha",
                  fg_dir="train_fg",
                  bg_dir="train_bg",
-                 alpha_ext=".jpg",
-                 fg_ext=".jpg",
+                 alpha_ext=".png",
+                 fg_ext=".png",
                  bg_ext=".jpg"):
         super(ImageFileTrain, self).__init__(phase="train")
 
@@ -81,7 +81,7 @@ class ImageFileTest(ImageFile):
                  merged_dir="test_merged",
                  trimap_dir="test_trimap",
                  alpha_ext=".png",
-                 merged_ext=".png",
+                 merged_ext=".jpg",
                  trimap_ext=".png"):
         super(ImageFileTest, self).__init__(phase="test")
 
