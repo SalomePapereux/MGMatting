@@ -1,4 +1,4 @@
-from   MGMatting.codebase.networks.decoders.resnet_dec import ResNet_D_Dec
+from   networks.decoders.resnet_dec import ResNet_D_Dec
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
