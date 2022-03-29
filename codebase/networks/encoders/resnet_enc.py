@@ -1,7 +1,6 @@
 import logging
 import torch.nn as nn
-from   utils import CONFIG
-from   networks.ops import SpectralNorm
+from   MGMatting.codebase.networks.ops import SpectralNorm
 
 
 def conv3x3(in_planes, out_planes, stride=1, groups=1, dilation=1):
