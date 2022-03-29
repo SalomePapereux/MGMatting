@@ -1,8 +1,7 @@
 import torch
 import torch.nn as nn
 
-from   utils import CONFIG
-from   networks import encoders, decoders, ops
+from   MGMatting.codebase.networks import encoders, decoders, ops
 
 
 class Generator(nn.Module):
