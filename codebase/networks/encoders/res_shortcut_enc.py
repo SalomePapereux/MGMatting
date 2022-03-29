@@ -1,7 +1,7 @@
 import torch.nn as nn
 from   utils import CONFIG
-from   networks.encoders.resnet_enc import ResNet_D
-from   networks.ops import SpectralNorm
+from   MGMatting.codebase.networks.encoders.resnet_enc import ResNet_D
+from   MGMatting.codebase.networks.ops import SpectralNorm
 
 
 class ResShortCut_D(ResNet_D):
