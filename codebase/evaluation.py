@@ -21,7 +21,8 @@ if __name__ == '__main__':
 
     for img in os.listdir(args.label_dir):
         print(img)
-        pred = cv2.imread(os.path.join(args.pred_dir, img), 0).astype(np.float32)
+        jpg_img = img.split('.png')[0] + '.jpg'
+        pred = cv2.imread(os.path.join(args.pred_dir, jpg_img), 0).astype(np.float32)
         label = cv2.imread(os.path.join(args.label_dir, img), 0).astype(np.float32)
         trimap = cv2.imread(os.path.join(args.trimap_dir, img), 0).astype(np.float32)
 
