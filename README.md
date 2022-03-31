@@ -1,9 +1,5 @@
 # Mask Guided Matting via Progressive Refinement Network
 
-<p align="center">
-  <img src="result/teaser.png" width="1050" title="Teaser Image"/>
-</p>
-
 This repository includes the official project of Mask Guided (MG) Matting, presented in the paper:
 
 **[Mask Guided Matting via Progressive Refinement Network](https://arxiv.org/abs/2012.06722)** (CVPR 2021)
